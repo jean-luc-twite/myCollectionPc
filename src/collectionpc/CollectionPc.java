@@ -53,7 +53,7 @@ public class CollectionPc {
              data = in.readLine();
             while(true){
             //DISPLAY
-            System.out.println("ORDER is " + data + "place on " + ts);
+            System.out.println("ORDER is " + data + "place on " + ts + "\n" + "thank you!!!");
              //write data INTO DATABASE
              
               odbm.addOrders(data);
